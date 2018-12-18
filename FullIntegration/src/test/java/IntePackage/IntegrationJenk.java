@@ -22,6 +22,8 @@ public class IntegrationJenk {
 	public static void failingTest() throws Exception
 	{
 		dr.findElement(By.name("sd")).click();
+		dr.quit();
+		System.out.println("test Case completed.................>>>>>>>");
 	}
 	
 }
