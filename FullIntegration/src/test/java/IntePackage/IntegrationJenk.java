@@ -21,9 +21,10 @@ public class IntegrationJenk {
 	@Test(priority=1)
 	public static void failingTest() throws Exception
 	{
+		System.out.println("Second one starting.................>>>>>>>");
 		dr.findElement(By.name("sd")).click();
 		dr.quit();
-		System.out.println("test Case completed.................>>>>>>>");
+		System.out.println("Test Case completed.................>>>>>>>");
 	}
 	
 }
